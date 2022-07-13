@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+}
+.pos-rel{
+  position: relative;
+}
+.logo-r{
+  font-size: 6px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 17px;
+  padding: 0px 2px;
+  position: absolute;
+  top: 20px;
+  left: 152px;
+}
+.hello{
+  position: absolute;
+  bottom: 25px;
+  color: white;
+  left: 200px;
+}
+.hello-des{
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  left: 122px;
+
+}
+
+.img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  /* opacity: 0.5; */
+}
+.flex{
+  display: flex;
+}
+.logo-text-f{
+  font-size: 36px;
+  font-weight: 600;
+}
+.logo-text{
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/* .page-wrapper{
+  background-color: black;
+
+} */
+
+.main-section{
+  /* border: 2px solid red; */
+  margin-top: 70px;
+  margin-left: 300px;
+  padding: 15px;
+  background-color: whitesmoke;
+  /* height: 200px; */
+  width: 650px;
+  /* padding: 100px 200px; */
+}

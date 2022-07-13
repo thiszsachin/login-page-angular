@@ -1,0 +1,52 @@
+.login-container{
+
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.login-text{
+  font-size: 28px;
+  font-weight: 600;
+}
+.credentials-text{
+  font-weight: 600;
+  color: gray;
+}
+.margin-bottom{
+  margin-bottom: 10px;
+}
+.user-logo{
+border: 1.8px solid grey;
+padding: 6px;
+border-bottom-left-radius: 16px;
+border-top-left-radius: 16px;
+}
+.login-input{
+  padding: 5px 15px;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.login-btn{
+  background-color: black;
+  margin-top: 20px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 16px;
+  color: white;
+}
+.error-text{
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+  position: absolute;
+  top: 37px;
+  left: 34px;
+}
+.margin-10{
+  margin-bottom: 10px;
+}
+
+.pos-rel{
+  position: relative;
+}
