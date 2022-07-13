@@ -12,7 +12,6 @@
       placeholder="Username"
       autofocus
     />
-    <br />
     <span class="error-text" *ngIf="errorEmail">{{ errorEmail }}</span>
   </div>
   <div class="pos-rel">
@@ -27,8 +26,5 @@
     />
     <span class="error-text" *ngIf="errorPassword">{{ errorPassword }} </span>
   </div>
-
-  <!-- <a href="https://www.forrester.com/bold"> -->
   <button (click)="onBtnClick()" class="login-btn">Login</button>
-  <!-- </a> -->
 </div>

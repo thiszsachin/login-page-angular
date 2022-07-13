@@ -1,5 +1,4 @@
 .login-container{
-
   margin-top: 70px;
   margin-left: 30px;
 }
@@ -17,14 +16,17 @@
 }
 .user-logo{
 border: 1.8px solid grey;
-padding: 6px;
+padding: 6.3px;
 border-bottom-left-radius: 16px;
 border-top-left-radius: 16px;
+border: 1px solid grey;
 }
 .login-input{
   padding: 5px 15px;
   border-bottom-right-radius: 16px;
   border-top-right-radius: 16px;
+  border: 1px solid grey;
+
 }
 
 .login-btn{
@@ -50,3 +52,16 @@ border-top-left-radius: 16px;
 .pos-rel{
   position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+  .login-container{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .user-logo{
+    padding: 6.5px;
+  }
+
+}
+
+
